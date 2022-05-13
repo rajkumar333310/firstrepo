@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/trendin5/public_html/
+    - /bin/cp * $DEPLOYPATH
